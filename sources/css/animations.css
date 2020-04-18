@@ -1,0 +1,19 @@
+@media (min-width: 400px) {
+    #p-izquierda {
+        transform: translateX(-150%);
+    }
+    
+    #p-derecha {
+        transform: translateX(150%);
+    }
+    
+    #p-izquierda.show {
+        transform: translateX(0);
+        transition: transform 3s;
+    }
+    
+    #p-derecha.show {
+        transform: translateX(0);
+        transition: transform 3s;
+    }
+}

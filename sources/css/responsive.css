@@ -1,0 +1,31 @@
+@media (max-width: 850px) {
+    #Header {
+        height: 10vh;
+        justify-content: center;
+    }
+    .cajas {
+        width: 100%;
+        min-height: 180px;
+    }
+    .content {
+        min-height: 100vh;
+    }
+    #content-3 .parrafo {
+        min-height: 300px;
+    }
+    #content-5 .parrafo-5 {
+        width: 80%;
+    }
+    .p-lateral {
+        min-height: 350px;
+        min-width: 350px;
+    }
+    footer {
+        padding: 10px 0;
+    }
+    footer div{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+}

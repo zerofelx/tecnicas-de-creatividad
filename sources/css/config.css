@@ -1,0 +1,142 @@
+@media (min-width: 851px) { 
+    #Header {
+        height: 12vh;
+        padding: 0 20px;
+    }
+    #content-1 h1 {
+        font-size: 60px;
+        margin: 10px;
+    }
+    .cajas {
+        width: 30%;
+        height: 40%;
+    }
+    #content-5 .parrafo-5 {
+        width: 50%;
+    }
+    .p-lateral {
+        height: 50%;
+    }
+}
+#Header {
+    width: 100%;
+    top: 0;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    background: white;
+    z-index: 5;
+}
+
+#content-1 {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+
+    background-image: url('../images/stock-photo-1014174236.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#content-1 div {
+    width: 100%;
+}
+
+#content-2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-image: url('../images/stock-photo-1014171477.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cajas {
+    color: white;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.425);
+    padding: 10px 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas h3 {
+    font-size: 30px;
+    margin: 5px;
+}
+.cajas p {
+    font-size: 18px;
+}
+
+#content-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    background-image: url('../images/stock-photo-1014169275.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#content-3 .parrafo {
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding: 50px 10%;
+}
+#content-3 .parrafo p {
+    font-size: 20px;
+}
+
+
+#content-4 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+
+    background-image: url('../images/stock-photo-1014169230.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#content-4 .p-lateral {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.p-lateral {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.p-lateral h3 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.p-lateral li {
+    font-size: 18px;
+}
+
+#content-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: rgb(41, 196, 41);
+}
+#content-5 .parrafo-5 {
+    text-align: center;
+}
+#content-5 .parrafo-5 p {
+    font-size: 20px;
+}

@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+    overflow-x: hidden;
+}
+h1, h2 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+a:hover {
+    color: crimson
+}
+footer {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+@media (min-width: 851px) {
+    .content {
+    height: 100vh;
+    }
+    .content-50 {
+    height: 50vh;
+    }
+}
